@@ -1,0 +1,217 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3e6f5; /* Latar belakang berwarna pastel ungu muda */
+    color: #4a4a4a;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    color: #5c3f80; /* Warna ungu gelap untuk judul utama */
+    margin-top: 20px;
+    font-size: 36px;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #6a4c9c; /* Warna ungu yang lebih muda */
+    margin-bottom: 30px;
+}
+
+/* Undangan List */
+.undangan-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 0 15px;
+}
+
+.undangan-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.undangan-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.undangan-item h3 {
+    color: #5c3f80; /* Warna ungu gelap untuk judul item */
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.undangan-item p {
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.undangan-item a {
+    background-color: #9b70d4; /* Warna ungu pastel untuk tombol */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.undangan-item a:hover {
+    background-color: #7f4fa4; /* Ungu lebih gelap saat hover */
+}
+
+/* Image Style */
+.undangan-item img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #5c3f80; /* Warna ungu gelap untuk footer */
+    color: white;
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+/* Detail Page */
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f3ff; /* Background ungu pastel */
+    color: #4a4a4a;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #5c3f80; /* Warna ungu gelap untuk judul utama */
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #6a4c9c; /* Warna ungu lebih muda */
+    margin-bottom: 30px;
+}
+
+/* Detail Section */
+.undangan-detail {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.undangan-detail h2 {
+    color: #5c3f80;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.undangan-detail p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+/* Image Style */
+/* Gambar mengisi seluruh lebar kontainer */
+.undangan-detail img {
+    display: block;
+    margin: 20px auto;
+    width: 100%; /* Mengisi seluruh lebar kontainer */
+    height: auto;
+    max-width: 1200px; /* Membatasi ukuran gambar pada 1200px */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Harga Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #5c3f80;
+    color: white;
+}
+
+table td {
+    background-color: #f9f9f9;
+}
+
+/* Action Buttons */
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.action-buttons a {
+    background-color: #5c3f80; /* Warna ungu pastel untuk tombol */
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.action-buttons a:hover {
+    background-color: #7f4fa4; /* Ungu lebih gelap saat hover */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #5c3f80; /* Warna ungu gelap untuk footer */
+    color: white;
+    margin-top: 50px;
+    font-size: 14px;
+}
